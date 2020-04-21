@@ -38,6 +38,9 @@ I assigned the following subjective priorities:
 
     **Example:** The Modules view is almost unusable without such features, I'm afraid.
 
+    **Idea:** Long-term, I could imagine remedybg to expose some low-level native API to a hot-loaded DLL into which
+    the user can put ad-hoc code that does interesting analysis on view contents after stepping, etc..
+
 *   **(use) For table cells which are only shown partially, show the full cell contents if possible on mouse over** in
     the status line or *in a separate full-width line at the bottom of the window*, a line which can maybe be disabled for people
     who want to optimize vertical screen space.
