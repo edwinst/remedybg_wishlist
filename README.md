@@ -22,7 +22,7 @@ I assigned the following subjective priorities:
 
 # All debug views (e.g. Modules, Threads, Call Stack):
 
-*   **(1)** as a minimum of interactivity, **all text in the tables in these views should be exportable (copy-able) to the clipboard**
+*   **(1)** As a minimum of interactivity, **all text in the tables in these views should be exportable (copy-able) to the clipboard**.
 
     Maybe copy the whole text with one click as a tab-separated/comma-separated text table and optionally also copy a single table cell.
     (Partial selection & copy is nice but lower priority.)
@@ -32,15 +32,15 @@ I assigned the following subjective priorities:
 
     **Examples:** The Modules view is almost unusable without such features, I'm afraid.
 
-*   **(use) for table cells which are only shown partially, show the full cell contents if possible on mouse over** in
-    the status line or *in a separate full-width line at the bottom of the window*, a line which can be disabled for people
-    optimizing vertical screen space.
+*   **(use) For table cells which are only shown partially, show the full cell contents if possible on mouse over** in
+    the status line or *in a separate full-width line at the bottom of the window*, a line which can maybe be disabled for people
+    who want to optimize vertical screen space.
 
-    **Note:** I think I'd like this better than showing text in pop-ups / "tooltips" as is down now for the EFLAGS register.
+    **Note:** I think I'd like this better than showing text in pop-ups / "tooltips" as is done now for the EFLAGS register.
     A dedicated line for such mouse-over text would minimize distraction of the user, text running off-screen, etc..
     Also, importantly: Such a separate mouse-over-line could work nicely while stepping if one leaves the mouse
-    hovering over the same spot. Motto: Left hand/keyboard for stepping, right hand/mouse for inspection, similar to how it
-    is done in games.
+    hovering over the same spot. *Motto: Left hand/keyboard for stepping, right hand/mouse for inspection, similar to how it
+    is done in games.*
 
 # All tabbed views
 
@@ -74,39 +74,44 @@ I assigned the following subjective priorities:
 
 # Watching variables and expressions
 
-*   **(1) faster way to add watched expressions that occur in the source**
+*   **(1) A faster way to add watched expressions that occur in the source.**
 
     **Ideas:** single-word expressions could be added by double-clicking;
     text selection and right-click>(context option) or a hotkey would work even for more complicated expressions.
 
-*   **(1) array inspection within structs and in "__locals"**
+*   **(1) Array inspection within structs and in "\_\_locals".**
 
-    **XXX** note to myself: describe this feature
+    **XXX** note to myself: describe this feature!
 
-*   **(use)** make it more obvious that one can add new items by clicking below the last watch item;
-    *use all space below the last item as clicking area for this*
+*   **(use)** Make it more obvious that one can add new items by clicking below the last watch item.
+    (Use all space below the last item as a mouse "area of attack" for this.)
 
-*   **(use)** allow expanding/collapsing of watched structs e.g. by double-click to increase the attack area for collapsing/expanding
+*   **(use)** Allow expanding/collapsing of watched structs e.g. by double-click to increase the area of attack for collapsing/expanding.
+
      **Note:** For the root item, this currently collides with the edit-on-double-click. Maybe it would be fine
     to toggle expansion along with the editing? After all, what I want to edit, I usually also want to see, right?
     A click on the collapse item could then re-collapse and also quit the editing, which seems useful.
 
-*   **(nth)** "__autos" struct which works similar to Visual Studio "Autos" watch window (shows variables used around the current source line and return values of recently returned functions)
+*   **(nth)** "__autos" struct which works similar to Visual Studio "Autos" watch window (shows variables used around the current source line and return values of recently returned functions).
+
     **Note:** The __autos features can be rather nice but if it introduces a lot of complexity, I'd be fine without it.
     Adding a very quick way to add watches (like double-click or right-click>(context option) on the name in the source) would go
     a long way to making __autos not needed.
 
 # Disassembly view
 
-*   **(1) this view desperately needs navigation. minimum: go to address/symbol**
+*   **(1) This view desperately needs navigation. Minimum: go to address/symbol.**
+
 *   **(eye) -> (use)** Use (maybe only slightly) different colors for address, machine code bytes, disassembly, respectively.
 
     **Note:** This becomes a usability feature in cases where the machine code bytes "bleed" into the disassembly column.
 
 # Register view
 
-*   **(use)** color changed register values after stepping
-*   **(use)** offer "add to watch" context menu to make it more obvious that that is (already) possible
-*   **(use)** on mouse-over on a register, show multiple interpretations of the register bits in the mouse-over-text-line discussed above
-    e.g. split off lower 32/16 bits, show decimal signed and unsigned interpretations (maybe characters for lowest 8 bits)
+*   **(use)** Color changed register values after stepping.
+
+*   **(use)** Offer "add to watch" context menu option to make it more obvious that that is (already) possible.
+
+*   **(use)** On mouse-over on a register, show multiple interpretations of the register bits in the mouse-over-text-line discussed above,
+    e.g. split off lower 32/16 bits, show decimal signed and unsigned interpretations (maybe characters for lowest 8 bits).
 
