@@ -25,7 +25,7 @@ I assigned the following subjective priorities:
 
 **Note:** Strong emphasis **like this** in the following is only meant to help the reader with orientation and is not to be read as **SHOUTING**! ;-)
 
-# All debug views (e.g. Modules, Threads, Call Stack):
+# All debug views (e.g. Modules, Threads, Call Stack, Memory, Disassembly):
 
 *   **(1)** As a minimum of interactivity, **all text in the tables in these views should be exportable (copy-able) to the clipboard**.
 
@@ -51,7 +51,7 @@ I assigned the following subjective priorities:
 
 # All tabbed views
 
-*   **(use)** I always find that having the closing "X" on every tab causes usability issues. When one flicks quickly
+*   **(use)** I always find that having **the closing "X" on every tab causes usability issues**. When one flicks quickly
     through the tabs it is too easy to close one accidentally, which is annoying. I'd prefer having a "Close"
     option on a right-click context menu on the tab. (It is also Huffman coding: closing is much rarer than switching tabs.)
 
@@ -64,16 +64,14 @@ I assigned the following subjective priorities:
 
 *   **(use, nth) tab completion for filenames** in target, directory, and argument boxes
 
-# Image and symbol loading
+# Process control, image and symbol loading
 
-*   **(use) Give error message if the image has been linked incrementally** and therefore will not work in remedybg (do not fail silently).
+*   **(use) Give error message if the loaded image has been linked incrementally** and therefore will not work in remedybg (do not fail silently).
 
     **Note:** Currently I have some images which remedybg loads without complaining but then breakpoints and stepping
     will silently not work. This can be quite confusing.
 
-# Process control
-
-*   **(use)** When the process exits, there should be a notice in the status bar (best: green for exit status 0, red for != 0).
+*   **(use) When the process exits, there should be a notice in the status bar** (best: green for exit status 0, red for != 0).
 
     **Note:** Currently it can be confusing for the user if the process exits and the "Output" tab is not visible.
     Also, remedybg is so blazingly fast that sometimes one does not even notice that it has already reacted to F5
@@ -116,6 +114,10 @@ I assigned the following subjective priorities:
     Adding a very quick way to add watches (like double-click or right-click>(context option) on the name in the source) would go
     a long way to making __autos not needed.
 
+# Memory view
+
+*   **(1)** The possibility to **keep multiple (or at least 2) memory views open at different addresses** would be great.
+
 # Disassembly view
 
 *   **(1) This view desperately needs navigation. Minimum: go to address/symbol.**
@@ -126,10 +128,10 @@ I assigned the following subjective priorities:
 
 # Register view
 
-*   **(use)** Color changed register values after stepping.
+*   **(use) Color changed register values** after stepping.
 
 *   **(use)** Offer "add to watch" context menu option to make it more obvious that that is (already) possible.
 
 *   **(use)** On mouse-over on a register, show multiple interpretations of the register bits in the mouse-over-text-line discussed above,
-    e.g. split off lower 32/16 bits, show decimal signed and unsigned interpretations (maybe characters for lowest 8 bits).
+    e.g. split off lower 32/16 bits, show decimal signed and unsigned interpretations (maybe ASCII character for lowest 8 bits).
 
