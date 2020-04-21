@@ -40,7 +40,7 @@ I assigned the following subjective priorities:
     A dedicated line for such mouse-over text would minimize distraction of the user, text running off-screen, etc..
     Also, importantly: Such a separate mouse-over-line could work nicely while stepping if one leaves the mouse
     hovering over the same spot. *Motto: Left hand/keyboard for stepping, right hand/mouse for inspection, similar to how it
-    is done in games.* (Apropos: How about some stepping short-cuts on the left side of the keyboard, under the relaxed
+    is done in games.* (*Apropos:* How about some stepping short-cuts on the left side of the keyboard, under the relaxed
     left hand position? Like W/S for step over/into and E/D for the instruction versions?)
 
 # All tabbed views
