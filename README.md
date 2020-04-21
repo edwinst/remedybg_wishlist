@@ -2,6 +2,7 @@
 
 This is my wishlist for features in George Menhorn's new great, little remedybg debugger
 (see [remedybg on itch.io](https://remedybg.itch.io/remedybg) and [remedybg on the handmade network](https://remedybg.handmade.network/)).
+You should definitely check it out if you're a programmer working on x64-Windows!
 
 ## About myself
 
