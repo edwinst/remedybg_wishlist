@@ -7,25 +7,26 @@ Priorities:
 
 # General for all debug views (e.g. Modules, Threads, Call Stack):
 
-*   (1) as a minimum of interactivity, all text in the tables in these views should be exportable (copy-able) to the clipboard
+*   **(1)** as a minimum of interactivity, **all text in the tables in these views should be exportable (copy-able) to the clipboard**
 
     Maybe with one click for the whole text as a tab-separated/comma-separated text table and optionally also for a single table cell.
 
     partial selection & copy is nice but lower priority
 
-    Note: This allows the user to use searching features, analysis features in other applications quickly as long
+    **Note:** This allows the user to use searching features, analysis features in other applications quickly as long
     as they are not provided by remedybg itself. Single-cell copy will be very useful with calculators like speedcrunch.
 
-    Examples: The Modules view is almost unusable without such features.
+    **Examples:** The Modules view is almost unusable without such features.
 
-* (use) for table cells which are only shown partially, show the full cell contents if possible on mouse over in
-       the status line or in a separate full-width line at the bottom of the window, a line which can be disabled for people
-       optimizing vertical screen space
-       Note: I think I'd like this better than showing text in pop-ups / "tooltips" as is down now for the EFLAGS register.
-             A dedicated line for such mouse-over text would minimize distraction of the user.
-             Also importantly: Such a separate mouse-over-line could work nicely while stepping if one leaves the mouse
-             hovering over the same spot. Motto: Left hand/keyboard for stepping, right hand/mouse for inspection, similar to how it
-             is done in games.
+*   **(use) for table cells which are only shown partially, show the full cell contents if possible on mouse over** in
+    the status line or in a separate full-width line at the bottom of the window, a line which can be disabled for people
+    optimizing vertical screen space.
+
+    **Note:** I think I'd like this better than showing text in pop-ups / "tooltips" as is down now for the EFLAGS register.
+    A dedicated line for such mouse-over text would minimize distraction of the user.
+    Also importantly: Such a separate mouse-over-line could work nicely while stepping if one leaves the mouse
+    hovering over the same spot. Motto: Left hand/keyboard for stepping, right hand/mouse for inspection, similar to how it
+    is done in games.
 
 # General tabbed views
 * (use) I always find that having the closing "X" on every tab causes usability issues. When one flicks quickly
