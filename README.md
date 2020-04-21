@@ -16,7 +16,7 @@ I assigned the following subjective priorities:
 *   **(1)**   important
 *   **(nth)** "nice to have"
 *   **(use)** usability & enjoyment maximization (ALSO IMPORTANT :-)
-*   **(cos)** cosmetics, eye candy
+*   **(eye)** cosmetics, eye candy
 
 **Note:** Strong emphasis **like this** in the following is only meant to help the reader with orientation and is not to be read as **SHOUTING**! ;-)
 
@@ -50,7 +50,7 @@ I assigned the following subjective priorities:
 
 # All menus
 
-*   **(cos)** for the selected menu option, the contrast is very bad for the hotkey text to the right of the option.
+*   **(eye)** for the selected menu option, the contrast is very bad for the hotkey text to the right of the option.
     Would be nice to make it white on light blue or so.
 
 # Session menu
@@ -99,7 +99,7 @@ I assigned the following subjective priorities:
 # Disassembly view
 
 *   **(1) this view desperately needs navigation. minimum: go to address/symbol**
-*   **(cos) -> (use)** Use (maybe only slightly) different colors for address, machine code bytes, disassembly, respectively.
+*   **(eye) -> (use)** Use (maybe only slightly) different colors for address, machine code bytes, disassembly, respectively.
 
     **Note:** This becomes a usability feature in cases where the machine code bytes "bleed" into the disassembly column.
 
