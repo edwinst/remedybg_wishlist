@@ -5,9 +5,9 @@ This is my wishlist for features in George Menhorn's new great, little remedybg 
 
 ## About myself
 
-I'm a programmer myself and you can see me use remedybg and writing "handmade" C++ code on [twitch](https://www.twitch.tv/edwinst) and [YouTube](https://www.youtube.com/channel/UC2FDMyhLAoQM2HR8zY4m7hw).
+I'm a programmer myself and you can see me using remedybg and writing "handmade" C++ code on [twitch](https://www.twitch.tv/edwinst) and [YouTube](https://www.youtube.com/channel/UC2FDMyhLAoQM2HR8zY4m7hw).
 
-## Priorities
+## The list
 
 I assigned the following subjective priorities:
 
@@ -16,6 +16,8 @@ I assigned the following subjective priorities:
 *   **(nth)** "nice to have"
 *   **(use)** usability & enjoyment maximization (ALSO IMPORTANT :-)
 *   **(cos)** cosmetics, eye candy
+
+**Note:** Strong emphasis **like this** in the following is only meant to help the reader with orientation and is not to be read as **SHOUTING**! ;-)
 
 # General for all debug views (e.g. Modules, Threads, Call Stack):
 
