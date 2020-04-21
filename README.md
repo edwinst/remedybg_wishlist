@@ -72,7 +72,7 @@ I assigned the following subjective priorities:
 
 # Process control, image and symbol loading
 
-*   **(use) Give error message if the loaded image has been linked incrementally** and therefore will not work in remedybg (do not fail silently).
+*   **(use) Display an error message if the loaded image has been linked incrementally** and therefore will not work in remedybg (do not fail silently).
 
     **Note:** Currently I have some images which remedybg loads without complaining but then breakpoints and stepping
     will silently not work. This can be quite confusing.
@@ -82,6 +82,10 @@ I assigned the following subjective priorities:
     **Note:** Currently it can be confusing for the user if the process exits and the "Output" tab is not visible.
     Also, remedybg is so blazingly fast that sometimes one does not even notice that it has already reacted to F5
     and executed the whole process to completion :-).
+
+# Source view
+
+*   **(use)** Go-to-line (Ctrl-G) works fine but is not discoverable via the "Source File" menu. Adding it there would help new users.
 
 # Watching variables and expressions
 
@@ -108,9 +112,9 @@ I assigned the following subjective priorities:
 *   **(use)** Make it more obvious that one can add new items by clicking below the last watch item.
     (Use all space below the last item as a mouse "area of attack" for this.)
 
-*   **(use)** Allow expanding/collapsing of watched structs e.g. by double-click to increase the area of attack for collapsing/expanding.
+*   **(use)** Allow expanding/collapsing of watched structs e.g. by double-click on the name to increase the area of attack for collapsing/expanding.
 
-     **Note:** For the root item, this currently collides with the edit-on-double-click. Maybe it would be fine
+     **Note:** For the root items, this currently collides with the edit-on-double-click. Maybe it would be fine
     to toggle expansion along with the editing? After all, what I want to edit, I usually also want to see, right?
     A click on the collapse item could then re-collapse and also quit the editing, which seems useful.
 
