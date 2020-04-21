@@ -18,6 +18,9 @@ General for all debug views (e.g. Modules, Threads, Call-Stack):
            optimizing vertical screen space
            Note: I think I'd like this better than showing text in pop-ups / "tooltips" as is down now for the EFLAGS register.
                  A dedicated line for such mouse-over text would minimize distraction of the user.
+                 Also importantly: Such a separate mouse-over-line could work nicely while stepping if one leaves the mouse
+                 hovering over the same spot. Motto: Left hand/keyboard for stepping, right hand/mouse for inspection, similar to how it
+                 is done in games.
 
 General tabbed views
      * (use) I always find that having the closing "X" on every tab causes usability issues. When one flicks quickly
@@ -59,6 +62,9 @@ Disassembly view
 
 Register view
     * (use) color changed register values after stepping
+    * (use) offer "add to watch" context menu to make it more obvious that that is (already) possible
+    * (use) on mouse-over on a register, show multiple interpretations of the register bits in the mouse-over-text-line discussed above
+        e.g. split off lower 32/16 bits, show decimal signed and unsigned interpretations (maybe characters for lowest 8 bits)
 
 Image and symbol loading:
     * (use) give error message if the image is used incrementally in therefore does not work in remedybg (do not fail silently)
