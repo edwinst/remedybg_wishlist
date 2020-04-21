@@ -24,8 +24,9 @@ I assigned the following subjective priorities:
 
 *   **(1)** As a minimum of interactivity, **all text in the tables in these views should be exportable (copy-able) to the clipboard**.
 
-    Maybe copy the whole text with one click as a tab-separated/comma-separated text table and optionally also copy a single table cell.
-    (Partial selection & copy is nice but lower priority.)
+    Maybe copy the whole text with one click/context menu option/hotkey as a
+    tab-separated/comma-separated text table and optionally also copy a single
+    table cell.  (Partial selection & copy is nice but lower priority.)
 
     **Note:** This allows the user to use searching features, analysis features in other applications quickly as long
     as they are not provided by remedybg itself. Single-cell copy will be very useful with calculators like [speedcrunch](https://speedcrunch.org/).
@@ -70,7 +71,7 @@ I assigned the following subjective priorities:
 *   **(use)** When the process exits, there should be a notice in the status bar (best: green for exit status 0, red for != 0).
 
     **Note:** Currently it can be confusing for the user if the process exits and the "Output" tab is not visible.
-    Also, remedybg is so blazingly fast, that sometimes one does not even notice that it has already reacted to F5
+    Also, remedybg is so blazingly fast that sometimes one does not even notice that it has already reacted to F5
     and executed the whole process to completion :-).
 
 # Watching variables and expressions
