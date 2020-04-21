@@ -7,12 +7,16 @@ Priorities:
 
 # General for all debug views (e.g. Modules, Threads, Call Stack):
 
-* (1) as a minimum of interactivity, all text in the tables in these views should be exportable (copy-able) to the clipboard
-        Maybe with one click for the whole text as a tab-separated/comma-separated text table and optionally also for a single table cell.
-        partial selection & copy is nice but lower priority
-        Note: This allows the user to use searching features, analysis features in other applications quickly as long
-              as they are not provided by remedybg itself. Single-cell copy will be very useful with calculators like speedcrunch.
-        Examples: The Modules view is almost unusable without such features.
+*   (1) as a minimum of interactivity, all text in the tables in these views should be exportable (copy-able) to the clipboard
+
+    Maybe with one click for the whole text as a tab-separated/comma-separated text table and optionally also for a single table cell.
+
+    partial selection & copy is nice but lower priority
+
+    Note: This allows the user to use searching features, analysis features in other applications quickly as long
+    as they are not provided by remedybg itself. Single-cell copy will be very useful with calculators like speedcrunch.
+
+    Examples: The Modules view is almost unusable without such features.
 
 * (use) for table cells which are only shown partially, show the full cell contents if possible on mouse over in
        the status line or in a separate full-width line at the bottom of the window, a line which can be disabled for people
