@@ -19,7 +19,7 @@ I assigned the following subjective priorities:
 
 **Note:** Strong emphasis **like this** in the following is only meant to help the reader with orientation and is not to be read as **SHOUTING**! ;-)
 
-# General for all debug views (e.g. Modules, Threads, Call Stack):
+# All debug views (e.g. Modules, Threads, Call Stack):
 
 *   **(1)** as a minimum of interactivity, **all text in the tables in these views should be exportable (copy-able) to the clipboard**
 
@@ -41,18 +41,19 @@ I assigned the following subjective priorities:
     hovering over the same spot. Motto: Left hand/keyboard for stepping, right hand/mouse for inspection, similar to how it
     is done in games.
 
-# General tabbed views
+# All tabbed views
 
 *   **(use)** I always find that having the closing "X" on every tab causes usability issues. When one flicks quickly
     through the tabs it is too easy to close one accidentally, which is annoying. I'd prefer having a "Close"
     option on a right-click context menu on the tab. (It is also Huffman coding: closing is much rarer than switching tabs.)
 
-# General menus
+# All menus
 
 *   **(cos)** for the selected menu option, the contrast is very bad for the hotkey text to the right of the option.
     Would be nice to make it white on light blue or so.
 
 # Session menu
+
 *   **(use, nth) tab completion for filenames** in target, directory, and argument boxes
 
 # Image and symbol loading
@@ -95,12 +96,14 @@ I assigned the following subjective priorities:
     a long way to making __autos not needed.
 
 # Disassembly view
+
 *   **(1) this view desperately needs navigation. minimum: go to address/symbol**
 *   **(cos) -> (use)** Use (maybe only slightly) different colors for address, machine code bytes, disassembly, respectively.
 
     **Note:** This becomes a usability feature in cases where the machine code bytes "bleed" into the disassembly column.
 
 # Register view
+
 *   **(use)** color changed register values after stepping
 *   **(use)** offer "add to watch" context menu to make it more obvious that that is (already) possible
 *   **(use)** on mouse-over on a register, show multiple interpretations of the register bits in the mouse-over-text-line discussed above
