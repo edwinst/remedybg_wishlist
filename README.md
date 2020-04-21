@@ -36,7 +36,7 @@ I assigned the following subjective priorities:
     **Note:** This allows the user to use searching features, analysis features in other applications quickly as long
     as they are not provided by remedybg itself. Single-cell copy will be very useful with calculators like [speedcrunch](https://speedcrunch.org/).
 
-    **Example:** The Modules view is almost unusable without such features, I'm afraid.
+    **Example:** The Modules view is almost unusable without such features, I'm afraid. The Memory view would gain a lot of possibilities.
 
     **Idea:** As an advanced version of this feature, auto-copy of a single selected cell to the clipboard after
     each step could be very useful.
