@@ -77,13 +77,14 @@ I assigned the following subjective priorities:
 
 *   **(1) A faster way to add watched expressions that occur in the source.**
 
-    **Ideas:** single-word expressions could be added by double-clicking;
-    text selection and right-click>(context option) or a hotkey would work even for more complicated expressions.
+    **Ideas:** single-word expressions could be added by double-clicking.
+    Text selection and right-click>(context option) or a hotkey would work even for more complicated expressions.
 
 *   **(1) Quick search feature (breadth-first) in the watch expressions tree.**
 
     **Note:** As a vim-mer, I'd love incremental search started by pressing
-    '/'. Maybe the most difficult part of this feature is how to gracefully
+    '/'. Windows-y Ctrl-F would be fine and less surprising, though.
+    Maybe the most difficult part of this feature is how to gracefully
     handle descending into collapsed structs during incremental search. For a
     first version, non-incremental would already be great.
 
