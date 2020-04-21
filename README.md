@@ -28,7 +28,7 @@ I assigned the following subjective priorities:
     (Partial selection & copy is nice but lower priority.)
 
     **Note:** This allows the user to use searching features, analysis features in other applications quickly as long
-    as they are not provided by remedybg itself. Single-cell copy will be very useful with calculators like speedcrunch.
+    as they are not provided by remedybg itself. Single-cell copy will be very useful with calculators like [speedcrunch](https://speedcrunch.org/).
 
     **Examples:** The Modules view is almost unusable without such features, I'm afraid.
 
