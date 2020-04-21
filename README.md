@@ -38,6 +38,9 @@ I assigned the following subjective priorities:
 
     **Example:** The Modules view is almost unusable without such features, I'm afraid.
 
+    **Idea:** As an advanced version of this feature, auto-copy of a single selected cell to the clipboard after
+    each step could be very useful.
+
     **Idea:** Long-term, I could imagine remedybg to expose some low-level native API to a hot-loaded DLL into which
     the user can put ad-hoc code that does interesting analysis on view contents / debug data after stepping, etc..
 
