@@ -4,6 +4,11 @@ This is my wishlist for features in George Menhorn's new great, little remedybg 
 (see [remedybg on itch.io](https://remedybg.itch.io/remedybg) and [remedybg on the handmade network](https://remedybg.handmade.network/)).
 You should definitely check it out if you're a programmer working on x64-Windows!
 
+All these wishes are just that: wishes and at most suggestions. I understand
+that feature creep needs to be guarded against. I have therefore tried to suggest features that
+make it easier to "outsource" more fancy stuff to external applications (e.g. by having good access to
+clipboard functions in all views) and to suggest simpler alternatives for some more complex wishes.
+
 ## About myself
 
 I'm a programmer myself and you can see me using remedybg and writing "handmade" C++ code on [twitch](https://www.twitch.tv/edwinst) and [YouTube](https://www.youtube.com/channel/UC2FDMyhLAoQM2HR8zY4m7hw).
