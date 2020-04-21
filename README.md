@@ -30,7 +30,7 @@ I assigned the following subjective priorities:
     **Note:** This allows the user to use searching features, analysis features in other applications quickly as long
     as they are not provided by remedybg itself. Single-cell copy will be very useful with calculators like [speedcrunch](https://speedcrunch.org/).
 
-    **Examples:** The Modules view is almost unusable without such features, I'm afraid.
+    **Example:** The Modules view is almost unusable without such features, I'm afraid.
 
 *   **(use) For table cells which are only shown partially, show the full cell contents if possible on mouse over** in
     the status line or *in a separate full-width line at the bottom of the window*, a line which can maybe be disabled for people
@@ -79,6 +79,16 @@ I assigned the following subjective priorities:
 
     **Ideas:** single-word expressions could be added by double-clicking;
     text selection and right-click>(context option) or a hotkey would work even for more complicated expressions.
+
+*   **(1) Quick search feature (breadth-first) in the watch expressions tree.**
+
+    **Note:** As a vim-mer, I'd love incremental search started by pressing
+    '/'. Maybe the most difficult part of this feature is how to gracefully
+    handle descending into collapsed structs during incremental search. For a
+    first version, non-incremental would already be great.
+
+    **Note:** A depth-first search starting at the selected node could also be useful but I'd guess breadth-first
+    is the more usually needed case.
 
 *   **(1) Array inspection within structs and in "\_\_locals".**
 
