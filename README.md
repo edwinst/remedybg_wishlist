@@ -1,6 +1,6 @@
 # Intro
 
-This is my wishlist for features in George Menhorn's new great, little remedybg debugger
+This is my wishlist for features in George Menhorn's new great, little "remedybg" debugger
 (see [remedybg on itch.io](https://remedybg.itch.io/remedybg) and [remedybg on the handmade network](https://remedybg.handmade.network/)).
 You should definitely check it out if you're a programmer working on x64-Windows!
 
@@ -43,7 +43,7 @@ I assigned the following subjective priorities:
     **Idea:** Long-term, I could imagine remedybg to expose some low-level native API to a hot-loaded DLL into which
     the user can put ad-hoc code that does interesting analysis on view contents / debug data after stepping, etc..
 
-*   **(use) For table cells which are only shown partially, show the full cell contents if possible on mouse over** in
+*   **(use) For table cells which are only shown partially, show the full cell contents if possible on mouse-over** in
     the status line or *in a separate full-width line at the bottom of the window*, a line which can maybe be disabled for people
     who want to optimize vertical screen space.
 
@@ -58,7 +58,7 @@ I assigned the following subjective priorities:
 
 *   **(use)** I always find that having **the closing "X" on every tab causes usability issues**. When one flicks quickly
     through the tabs it is too easy to close one accidentally, which is annoying. I'd prefer having a "Close"
-    option on a right-click context menu on the tab. (It is also Huffman coding: closing is much rarer than switching tabs.)
+    option on a right-click context menu on the tab. (It is also Huffman coding: closing is much rarer than switching tabs, isn't it?)
 
 # All menus
 
@@ -93,13 +93,13 @@ I assigned the following subjective priorities:
     **Ideas:** single-word expressions could be added by double-clicking.
     Text selection and right-click>(context option) or a hotkey would work even for more complicated expressions.
 
-*   **(1) Quick search feature (breadth-first) in the watch expressions tree.**
+*   **(1) Quick search feature (breadth-first) in the watch expressions tree / forest.**
 
     **Note:** As a vim-mer, I'd love incremental search started by pressing
     '/'. Windows-y Ctrl-F would be fine and less surprising, though.
     Maybe the most difficult part of this feature is how to gracefully
     handle descending into collapsed structs during incremental search. For a
-    first version, non-incremental would already be great.
+    first version, non-incremental would already be great. (Maybe with incremental first result display in the "mouse-over-line"?)
 
     **Note:** A depth-first search starting at the selected node could also be useful but I'd guess breadth-first
     is the more usually needed case.
@@ -116,19 +116,23 @@ I assigned the following subjective priorities:
     but typed and interpreted. This would not replace the quick inspection mentioned above, though.
 
 *   **(use)** Make it more obvious that one can add new items by clicking below the last watch item.
-    (Use all space below the last item as a mouse "area of attack" for this.)
+    (Use all space below the last item as a mouse "area of attack" for this and put text or button there to tip the user off.)
 
 *   **(use)** Allow expanding/collapsing of watched structs e.g. by double-click on the name to increase the area of attack for collapsing/expanding.
 
      **Note:** For the root items, this currently collides with the edit-on-double-click. Maybe it would be fine
     to toggle expansion along with the editing? After all, what I want to edit, I usually also want to see, right?
-    A click on the collapse item could then re-collapse and also quit the editing, which seems useful.
+    A click on the collapse buttom could then re-collapse and also quit the
+    editing, which seems useful. Would need to be tried to see if is a good
+    idea, I guess.
 
-*   **(nth)** "__autos" struct which works similar to Visual Studio "Autos" watch window (shows variables used around the current source line and return values of recently returned functions).
+*   **(nth)** "__autos" struct which works similar to Visual Studio "Autos"
+    watch window (shows variables used around the current source line and
+    return values of recently returned functions).
 
     **Note:** The __autos features can be rather nice but if it introduces a lot of complexity, I'd be fine without it.
     Adding a very quick way to add watches (like double-click or right-click>(context option) on the name in the source) would go
-    a long way to making __autos not needed.
+    a long way to making __autos not needed. Return values could be displayed with less effort, maybe.
 
 # Memory view
 
@@ -149,5 +153,5 @@ I assigned the following subjective priorities:
 *   **(use)** Offer "add to watch" context menu option to make it more obvious that that is (already) possible.
 
 *   **(use)** On mouse-over on a register, show multiple interpretations of the register bits in the mouse-over-text-line discussed above,
-    e.g. split off lower 32/16 bits, show decimal signed and unsigned interpretations (maybe ASCII character for lowest 8 bits).
+    e.g. split off lower 32/16 bits, show decimal signed and unsigned interpretations (maybe ASCII character for lowest 8 bits or even 8 ASCII characters for a 64-bit registers?).
 
