@@ -11,7 +11,9 @@ clipboard functions in all views) and to suggest simpler alternatives for some m
 
 ## About myself
 
-Unsurprisingly, I'm a programmer myself and you can see me using remedybg and writing "handmade" C++ code on [twitch](https://www.twitch.tv/edwinst) and [YouTube](https://www.youtube.com/channel/UC2FDMyhLAoQM2HR8zY4m7hw).
+Unsurprisingly, I'm a programmer myself and you can see me using remedybg and
+writing "handmade" C++ code on [twitch](https://www.twitch.tv/edwinst) and
+[YouTube](https://www.youtube.com/channel/UC2FDMyhLAoQM2HR8zY4m7hw).
 
 ## The list
 
