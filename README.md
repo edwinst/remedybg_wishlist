@@ -64,7 +64,7 @@ I assigned the following subjective priorities:
 
 *   **(use)** Keyboard navigation is generally very good already but it is not as easily discoverable as it could be.
     One idea: To the right of the tab headers there is often unused space.--If this space is wide enough, display a string there
-    (in a low contrast gray) saying "Switch with Alt", for example. I don't know if one could do something similar for Ctrl-<Tab>,
+    (in a low contrast gray) saying "Switch with Alt", for example. I don't know if one could do something similar for Ctrl-Tab,
     though the latter one is a more standard shortcut for doing that kind of thing, so it is not so important.
 
 # All menus
