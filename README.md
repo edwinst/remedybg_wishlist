@@ -11,13 +11,12 @@ clipboard functions in all views) and to suggest simpler alternatives for some m
 
 ## About myself
 
-I'm a programmer myself and you can see me using remedybg and writing "handmade" C++ code on [twitch](https://www.twitch.tv/edwinst) and [YouTube](https://www.youtube.com/channel/UC2FDMyhLAoQM2HR8zY4m7hw).
+Unsurprisingly, I'm a programmer myself and you can see me using remedybg and writing "handmade" C++ code on [twitch](https://www.twitch.tv/edwinst) and [YouTube](https://www.youtube.com/channel/UC2FDMyhLAoQM2HR8zY4m7hw).
 
 ## The list
 
 I assigned the following subjective priorities:
 
-*   **(0)**   showstopper *[none hit so far, phew :-)]*
 *   **(1)**   important
 *   **(nth)** "nice to have"
 *   **(use)** usability & enjoyment maximization (ALSO IMPORTANT :-)
@@ -105,9 +104,16 @@ I assigned the following subjective priorities:
     **Note:** A depth-first search starting at the selected node could also be useful but I'd guess breadth-first
     is the more usually needed case.
 
-*   **(1) Array inspection within structs and in "\_\_locals".**
+*   **(1) Array inspection within structs and in "\_\_locals".** A quick way to inspect arrays hanging off pointers in structs and from local variables would be great.
 
-    **XXX** note to myself: describe this feature!
+    **Ideas:** Have a "+" button next to each pointer which turns the watch item into "*,1", "*,2", "*,3", etc. with 1,2,3 clicks.
+    This way one could easily inspect the first few elements. For a larger number of elements one can do "Add Watch", then add the comma and
+    and number. Maybe "Add watch" could automatically open the new watch item in edit mode with the cursor at the end?
+    For decreasing the number, one could have a '-' button or edit mode for nested items (a bigger, more complicated and controversial topic, I guess)
+    or a context menu option.
+
+    **Note:** Mid-term, a dedicated "Array inspection" view could be useful for large arrays in order to display arrays in matrix style similar to Memory,
+    but typed and interpreted. This would not replace the quick inspection mentioned above, though.
 
 *   **(use)** Make it more obvious that one can add new items by clicking below the last watch item.
     (Use all space below the last item as a mouse "area of attack" for this.)
