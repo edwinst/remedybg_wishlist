@@ -67,6 +67,9 @@ I assigned the following subjective priorities:
     (in a low contrast gray) saying "Switch with Alt", for example. I don't know if one could do something similar for Ctrl-Tab,
     though the latter one is a more standard shortcut for doing that kind of thing, so it is not so important.
 
+*   **(use)** It is a bit surprising that after keyboard navigation through the tabs with Alt, a tab can only be
+    confirmed and opened by pressing Space, not with Enter. Maybe allow Enter, too?
+
 # All menus
 
 *   **(eye)** for the selected menu option, the contrast is very bad for the hotkey text to the right of the option.
