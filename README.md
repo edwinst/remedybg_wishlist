@@ -142,7 +142,7 @@ I assigned the following subjective priorities:
 
      **Note:** For the root items, this currently collides with the edit-on-double-click. Maybe it would be fine
     to toggle expansion along with the editing? After all, what I want to edit, I usually also want to see, right?
-    A click on the collapse buttom could then re-collapse and also quit the
+    A click on the collapse button could then re-collapse and also quit the
     editing, which seems useful. Would need to be tried to see if is a good
     idea, I guess.
 
