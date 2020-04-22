@@ -60,14 +60,29 @@ I assigned the following subjective priorities:
     through the tabs it is too easy to close one accidentally, which is annoying. I'd prefer having a "Close"
     option on a right-click context menu on the tab. (It is also Huffman coding: closing is much rarer than switching tabs, isn't it?)
 
+*   **(use)** Keyboard navigation is generally very good already but it is not as easily discoverable as it could be.
+    One idea: To the right of the tab headers there is often unused space.--If this space is wide enough, display a string there
+    (in a low contrast gray) saying "Switch with <Alt>", for example. I don't know if one could do something similar for Ctrl-<Tab>,
+    though the latter one is a more standard shortcut for doing that kind of thing, so it is not so important.
+
 # All menus
 
 *   **(eye)** for the selected menu option, the contrast is very bad for the hotkey text to the right of the option.
     Would be nice to make it white on light blue or so.
 
+*   **(use)** The tolerance for moving the mouse pointer to the right and down into a submenu without the submenu disappearing
+    is there but it is relatively tight. Especially with neighboring entries like Window > Style and Window > Save layout,
+    I'd enjoy a slightly more tolerant reaction to the pointer movements.
+
 # Session menu
 
 *   **(use, nth) tab completion for filenames** in target, directory, and argument boxes
+
+*   **(use) Maybe display the list of recent sessions closer to the "Recent" menu option (and the user's pointer)**
+
+    **Note:** The (very nice) direct entry of the executable path, etc., has the one disadvantage that the menu becomes quite wide.
+    This makes for an awkwardly long mouse movement from "Recent" to the actual list. For very wide menus it might be better to
+    open the submenu below and only slightly to the right (to expose enough of the menu text) of the pointer instead of to the very right of the whole menu.
 
 # Process control, image and symbol loading
 
