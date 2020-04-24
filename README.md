@@ -134,9 +134,13 @@ I assigned the following subjective priorities:
 
 *   **(1) Array inspection within structs and in "\_\_locals".** A quick way to inspect arrays hanging off pointers in structs and from local variables would be great.
 
-    **Ideas:** Have a "+" button next to each pointer which turns the watch item into "...,1", "...,2", "...,3", etc. with 1,2,3 clicks.
+    **Ideas:** Have a "+" button next to each pointer which turns the watch item into "...,2", "...,3", "...,4", etc. with 1,2,3 clicks.
     This way one could easily inspect the first few elements. For a larger number of elements one can do "Add Watch", then add the comma and
     and number. Maybe "Add watch" could automatically open the new watch item in edit mode with the cursor at the end?
+
+    ALTERNATIVE to "Add watch": With the 3rd click, the "+" button could turn into an entry field for the number of array elements. This
+    would solve the problem of how to reduce the number of items, too.
+
     For decreasing the number, one could have a '-' button or edit mode for nested items (a bigger, more complicated and controversial topic, I guess)
     or a context menu option.
 
