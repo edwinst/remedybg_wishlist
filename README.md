@@ -9,6 +9,8 @@ that feature creep needs to be guarded against. I have therefore tried to sugges
 make it easier to "outsource" more fancy stuff to external applications (e.g. by having good access to
 clipboard functions in all views) and to suggest simpler alternatives for some more complex wishes.
 
+[remedybg issue tracker on github](https://github.com/x13pixels/remedybg-issues/issues)
+
 ## About myself
 
 Unsurprisingly, I'm a programmer myself and you can see me using remedybg and
