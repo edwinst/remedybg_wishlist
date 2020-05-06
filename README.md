@@ -106,7 +106,7 @@ I assigned the following subjective priorities:
 
 # Source view
 
-*   **(use)** Go-to-line (Ctrl-G) works fine but is not discoverable via the "Source File" menu. Adding it there would help new users.
+*   **(use)** Go-to-line (Ctrl-G) works fine but is not discoverable via the "Source File" menu. Adding it there would help new users. _Fixed in 0.3.0.6_
 
 *   **(use)** Run-to-cursor and Set-next-statement should maybe be discoverable
     via the "Control" menu. Do you think the menus would get too long this way?
