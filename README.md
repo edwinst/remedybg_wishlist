@@ -105,7 +105,7 @@ I assigned the following subjective priorities:
     **Note:** Currently I have some images which remedybg loads without complaining but then breakpoints and stepping
     will silently not work. This can be quite confusing.
 
-*   **(use) When the process exits, there should be a notice in the status bar** (best: green for exit status 0, red for != 0).
+*   **[DONE 0.3.0.7]** When the process exits, there should be a notice in the status bar (best: green for exit status 0, red for != 0).
 
     **Note:** Currently it can be confusing for the user if the process exits and the "Output" tab is not visible.
     Also, remedybg is so blazingly fast that sometimes one does not even notice that it has already reacted to F5
