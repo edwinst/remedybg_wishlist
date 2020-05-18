@@ -74,12 +74,12 @@ I assigned the following subjective priorities:
 
 # All menus
 
-*   **(eye)** for the selected menu option, the contrast is very bad for the hotkey text to the right of the option.
-    Would be nice to make it white on light blue or so.
-
 *   **(use)** The tolerance for moving the mouse pointer to the right and down into a submenu without the submenu disappearing
     is there but it is relatively tight. Especially with neighboring entries like Window > Style and Window > Save layout,
     I'd enjoy a slightly more tolerant reaction to the pointer movements.
+
+*   **[DONE 0.3.0.7]** for the selected menu option, the contrast is very bad for the hotkey text to the right of the option.
+    Would be nice to make it white on light blue or so.
 
 # Session menu
 
