@@ -65,7 +65,7 @@ I assigned the following subjective priorities:
     (in a low contrast gray) saying "Switch with Alt", for example. I don't know if one could do something similar for Ctrl-Tab,
     though the latter one is a more standard shortcut for doing that kind of thing, so it is not so important.
 
-*   **(use)** It is a bit surprising that after keyboard navigation through the tabs with Alt, a tab can only be
+*   **[DONE 0.3.0.7]** It is a bit surprising that after keyboard navigation through the tabs with Alt, a tab can only be
     confirmed and opened by pressing Space, not with Enter. Maybe allow Enter, too?
 
 *   **[DONE 0.3.0.7]** I always find that having **the closing "X" on every tab causes usability issues**. When one flicks quickly
