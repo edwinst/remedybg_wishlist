@@ -93,6 +93,13 @@ I assigned the following subjective priorities:
 
 # Process control, image and symbol loading
 
+*   **(use) Display basename and directory of target executable in the title bar.**
+
+    **Note:** This will be very helpful to people in projects with multiple executables. I think a nice format would be to first identify
+    the executable by basename and then give the directory path (to keep different build configurations straight, for example), like
+    "test_jbig2.exe (out/build/x64-Debug)". This is easier to spot at a glance than simply the full path and it works better if the
+    window is shrinked.
+
 *   **(use) Display an error message if the loaded image has been linked incrementally** and therefore will not work in remedybg (do not fail silently).
 
     **Note:** Currently I have some images which remedybg loads without complaining but then breakpoints and stepping
@@ -165,6 +172,11 @@ I assigned the following subjective priorities:
     **Note:** The __autos features can be rather nice but if it introduces a lot of complexity, I'd be fine without it.
     Adding a very quick way to add watches (like double-click or right-click>(context option) on the name in the source) would go
     a long way to making __autos not needed. Return values could be displayed with less effort, maybe.
+
+*   **(use) Multiple watched expression views?**
+
+    **Note:** The idea here would be that the user could assemble frequently used watched expressions for
+    different contexts and maybe name them and recall them quickly as separate watched expression views/tabs.
 
 # Memory view
 
