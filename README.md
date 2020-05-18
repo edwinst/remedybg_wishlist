@@ -113,13 +113,13 @@ I assigned the following subjective priorities:
 
 # Source view
 
-*   **(use)** Go-to-line (Ctrl-G) works fine but is not discoverable via the "Source File" menu. Adding it there would help new users.
-
 *   **(use)** Run-to-cursor and Set-next-statement should maybe be discoverable
     via the "Control" menu. Do you think the menus would get too long this way?
     I'm not sure. As a user, I think I'm also fine with learning that in this
     application, I also should use the context menu for shortcut discovery,
     though.
+
+*   **[DONE 0.3.0.6]** Go-to-line (Ctrl-G) works fine but is not discoverable via the "Source File" menu. Adding it there would help new users.
 
 # Watching variables and expressions
 
