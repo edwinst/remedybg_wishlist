@@ -60,10 +60,6 @@ I assigned the following subjective priorities:
 
 # All tabbed views
 
-*   **(use)** I always find that having **the closing "X" on every tab causes usability issues**. When one flicks quickly
-    through the tabs it is too easy to close one accidentally, which is annoying. I'd prefer having a "Close"
-    option on a right-click context menu on the tab. (It is also Huffman coding: closing is much rarer than switching tabs, isn't it?)
-
 *   **(use)** Keyboard navigation is generally very good already but it is not as easily discoverable as it could be.
     One idea: To the right of the tab headers there is often unused space.--If this space is wide enough, display a string there
     (in a low contrast gray) saying "Switch with Alt", for example. I don't know if one could do something similar for Ctrl-Tab,
@@ -71,6 +67,10 @@ I assigned the following subjective priorities:
 
 *   **(use)** It is a bit surprising that after keyboard navigation through the tabs with Alt, a tab can only be
     confirmed and opened by pressing Space, not with Enter. Maybe allow Enter, too?
+
+*   **[DONE 0.3.0.7]** I always find that having **the closing "X" on every tab causes usability issues**. When one flicks quickly
+    through the tabs it is too easy to close one accidentally, which is annoying. I'd prefer having a "Close"
+    option on a right-click context menu on the tab. (It is also Huffman coding: closing is much rarer than switching tabs, isn't it?)
 
 # All menus
 
